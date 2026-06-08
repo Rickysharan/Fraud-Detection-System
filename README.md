@@ -1,21 +1,31 @@
-# Fraud Detection System
+# Fraud Detection in Credit Card Transactions
 
-## Overview
+This project builds a machine learning system to detect fraudulent credit card transactions using real-world financial data.
 
-A financial fraud detection project focused on identifying suspicious transactions using data analytics and machine learning techniques.
+## Objective
+To identify fraudulent transactions while balancing detection accuracy and minimizing false alarms.
 
-## Technologies
+## Dataset
+- Credit card transaction dataset
+- Highly imbalanced (fraud cases are very rare)
+- 30 numerical features + target label (Class)
 
-- Python
-- SQL
-- Pandas
-- NumPy
-- Scikit-Learn
+## Techniques Used
+- Data preprocessing
+- Feature scaling (StandardScaler)
+- Train-test split (stratified)
+- Logistic Regression (baseline model)
+- Random Forest Classifier (final model)
 
-## Status
+## Evaluation Metrics
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+- ROC-AUC Score
 
-🚧 Currently under development
+## Key Insight
+Fraud detection is a highly imbalanced classification problem where recall is more important than accuracy.
 
-## Goal
-
-To build a fraud detection system capable of analysing transaction patterns and flagging potentially fraudulent activities.
+## Author
+Built as a fintech machine learning project for portfolio and job applications.
