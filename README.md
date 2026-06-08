@@ -29,3 +29,35 @@ Fraud detection is a highly imbalanced classification problem where recall is mo
 
 ## Author
 Built as a fintech machine learning project for portfolio and job applications.
+
+## Project Structure
+
+fraud-detection-ml/
+│
+├── run.py                  # End-to-end pipeline execution
+├── README.md
+│
+├── notebooks/
+│   └── fraud_detection.ipynb   # Exploratory analysis & model development
+│
+├── src/
+│   └── train_model.py          # ML training pipeline (modular code)
+│
+├── data/                       # Dataset (not always stored in repo)
+
+## How to Run
+
+Install dependencies:
+pip install pandas numpy scikit-learn
+
+Run the full pipeline:
+python run.py
+
+## Real-World Relevance
+
+This project simulates a real fintech fraud detection pipeline used in banking systems:
+
+- Handles highly imbalanced financial data
+- Implements model comparison (Logistic Regression vs Random Forest)
+- Uses evaluation metrics suitable for fraud detection (Recall, ROC-AUC)
+- Demonstrates trade-off between fraud detection and false positives
