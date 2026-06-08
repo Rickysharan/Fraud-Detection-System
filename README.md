@@ -10,7 +10,7 @@ To identify fraudulent transactions while balancing detection accuracy and minim
 - Highly imbalanced (fraud cases are very rare)
 - 30 numerical features + target label (Class)
 
-## Techniques Used
+## Techniques Used 
 - Data preprocessing
 - Feature scaling (StandardScaler)
 - Train-test split (stratified)
